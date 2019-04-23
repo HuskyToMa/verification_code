@@ -1,0 +1,38 @@
+{
+  "name": "@zn_husky/vcode",
+  "version": "1.0.0",
+  "description": "create verification code by frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack/webpack.config.pro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuskyToMa/verification_code.git"
+  },
+  "keywords": [
+    "verification",
+    "code"
+  ],
+  "author": "zn_husky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuskyToMa/verification_code/issues"
+  },
+  "homepage": "https://github.com/HuskyToMa/verification_code#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  }
+}

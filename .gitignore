@@ -1,0 +1,8 @@
+# 编辑器
+.history/
+.DS_Store
+# 构建目录
+dist/
+node_modules/
+
+package-lock.json
