@@ -1,10 +1,4 @@
-const a = function (){
+import vCode from './src/vcode'
 
-    let s = { v: '123' };
-
-    let b = { ...s };
-    return b;
-
-}
-
-window.a = a;
+window.vCode = vCode;
+export default vCode;

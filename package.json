@@ -23,6 +23,7 @@
   "homepage": "https://github.com/HuskyToMa/verification_code#readme",
   "dependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.4",
     "@babel/runtime": "^7.4.3",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^2.0.1",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-transform-runtime": "^7.4.3",
     "@babel/preset-env": "^7.4.3"
   }

@@ -4,7 +4,8 @@
             "@babel/preset-env",
             {
                 "loose": true,
-                "modules": false
+                "modules": false,
+                "useBuiltIns": "entry"
             }
         ]
     ],
@@ -18,6 +19,7 @@
                 "regenerator": true,
                 "useESModules": false
             }
-        ]
+        ],
+        "@babel/plugin-proposal-class-properties"
     ]
 }
