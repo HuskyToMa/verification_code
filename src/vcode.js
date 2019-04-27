@@ -37,7 +37,7 @@ export default class vCode {
 
     setBox =  () => {
 
-        this.canvas.setAttribute('width' , '100');
+        this.canvas.setAttribute('width' , `${ ( this.codeLength + 1 ) * 20 }`);// 增加一个字的空余位置
         this.canvas.setAttribute('height' , '40');
 
     }
